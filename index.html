@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ENVELO</h1>
+        <span>Możesz mieć przesyłkę w kilkanascie sekund. Rozpoczni klikając w przycisk.</span>
+    </header>
+    <main>
+        <!-- step0 -->
+        <section class="step0">
+            <button class="buttonStep0">Odbierz paczkę</button>
+        </section>
+        <!-- step1 -->
+        <section class="step1 hideStep1">
+            <div class="divStep1">
+            <span>Numer telefonu</span>
+            <span>Kod odbioru</span>
+            <input type="text" id="telephone">
+            <input type="text" id="code">
+            </div>
+            <button class="buttonStep1">Odbierz paczkę</button>
+        </section>
+        <!-- step2 -->
+        <section class="modal hideModal">
+            <section class="step2">
+                <h1 class="h1Step2">Paczka odebrana!</h1>
+                <div class="divStep2">Zrobiłeś to w czasie 10 sekund! Czy możemy zrobić dla Ciebie coś jeszcze ?</div>
+                <button class="buttonStep20">To wszystko na dziś</button>
+                <button class="buttonStep21">Odbierz kolejną paczkę</button>
+            </section>
+        </section>
+        
+    </main>
+   <script src="main.js"></script> 
+</body>
+</html>
